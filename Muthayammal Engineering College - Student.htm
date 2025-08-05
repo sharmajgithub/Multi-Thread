@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <title> Muthayammal Engineering College - Student </title>
+    </head>
+    <body>
+        <p>
+            <marquee>
+        <h1><center><u>Muthayammal Engineering College</u></center></h1></marquee>
+        
+        <h3><center>Department of Computer Science and Engineering</center></h3>
+        <hr>
+        <h2><center>Student Portfolio</center></h2>
+        <p>Sharma<br>
+        sharmaramalingam2003@gmail.com | 6385615535 <br>
+        Salem , TamilNadu</p>
+        <hr>
+        <p><center>
+            <a href="#About">About Us</a>
+            <a href="#Edusystem">Education System</a>
+            <a href="#Features">Features</a>
+            <a href="#Contact">Contact</a>
+        </center></p>
+        <h2 id="About">
+            
+            <u>
+                About
+            </u>
+        </h2>
+        <p>Here is the protofolio which showcase about the college student profile
+            <h2 id="Edusystem">
+                <u>Education</u>
+            </h2>
+        </p>
+        <table border="1" width="100" cellspacing="0" cellpadding="6">
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+                <th>Percentage</th>
+            </tr>
+            <tr>
+                <td> Bachelor of Computer Science and Engineering </td>
+                <td>Muthayammal Engineering College</td>
+                <td>2022-2026</td>
+                <td>8.1 CGP</td>
+            </tr>
+            <tr>
+            <td>HSC</td>
+            <td>Little Flower Matric.hr.sec.school</td>
+            <td>2021-2022</td>
+            <td>81.1</td>
+            </tr>
+            <tr>
+                <td>SSLC</td>
+                <td>Little flower Matric.Hr.Sec.School</td>
+                <td>2019-2020</td>
+                <td>82.1</td>
+            </tr>
+        </table>
+        <hr>
+        <h2 id="Features">
+            <u>Features</u>
+        </h2>
+    <p> 
+        <ul>
+            <li>Eco Campus</li>
+            <li>Well - equipped Computer labs</li>
+            <li>Well Furnished Cafe</li>
+            <li>smart Classroom</li>
+            <li>Mordern Hostel Facilities with 5G mbps Wi-Fi Connecitivity</li>
+            <li>Placement cell with Excellent Placement records </li>
+            <li> Technical Ecxperties Staffs</li>
+        </ul>
+        <h2 id="Contact">
+            <u>Contact</u>
+        </h2>
+        <p> 
+            Email:sharmaramalingam2003@gmail.com<br>
+            Phone:+916385615535 <br>
+            Location:Salem,Tamil Nadu
+        </p>
+        <p><center>
+            &
+        </center></p>
+    
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
